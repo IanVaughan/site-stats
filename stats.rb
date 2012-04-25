@@ -19,7 +19,3 @@ get '/' do
   content_type :json
   stats.to_json
 end
-
-# 10.times {
-#    puts stats
-# sleep 1}
